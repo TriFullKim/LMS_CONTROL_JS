@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "skipVidforLECTURE",
+    "version": "2",
+    "content_scripts": [
+        {
+            "js": ["jquery360.js", "content.js"],
+            "matches": [
+                "https://pknu.commonscdn.com/*",
+                "https://*.kinxzone.com/name/*",
+                "https://s3.us-west-2.amazonaws.com/*"
+
+            ]
+            
+        }
+    ]
+}
