@@ -1,19 +1,18 @@
 {
     "manifest_version": 3,
-    "name": "GetLectureLink",
-    "version": "8",
+    "name": "GetLecture",
+    "version": "10",
     "content_scripts": [
         {
             "js": [
-                "pknuInfo.js",
-                "content.js"
+                "lecture.js"
             ],
             "matches": [
                 "https://lms.pknu.ac.kr/ilos/st/course/online_view_form.acl*",
-                "https://pknu.commonscdn.com/*",
-                "https://*/kinxzone.com/*",
                 "https://ucc.pknu.ac.kr/*",
-                "https://www.youtube.com/embed/*"
+                "https://pknu.commonscdn.com/*",
+                "https://*.kinxzone.com/name/*",
+                "https://s3.us-west-2.amazonaws.com/*"
             ]
         }
     ]
